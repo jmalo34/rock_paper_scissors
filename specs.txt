@@ -16,4 +16,20 @@ Output:  Player 2
 
 SPEC 5:  If Paper & Scissors are played, Scissors wins
 Input:  Paper, Scissors
-Output:  Player 2 
+Output:  Player 2
+
+
+1.  p1 rock & p2 scissors = Player 1
+2.  p1 rock & p2 paper = Player 2
+3.  p1 paper & p2 rock = Player 1
+4.  p1 paper & p2 scissors = Player 2
+5.  p1 scissors & p2 rock = Player 2
+6.  p1 scissors & p2 paper = Player 1
+
+
+Rock = 3
+Scissors = 2
+Paper = 1
+-If sum of p1 and p2 is 5, return the greater value
+-If sum of p1 and p2 is 4, return the lesser value
+-If sum of p1 and p2 is 3, return the greater value
