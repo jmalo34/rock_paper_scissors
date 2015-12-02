@@ -8,12 +8,12 @@ Output:  'Draw. Play again.'
 
 SPEC 3:  If Rock & Scissors are played, Rock wins.
 Input:  Rock, Scissors
-Output:  Rock
+Output:  Player 1
 
 SPEC 4:  If Rock & Paper are played, Paper wins.
 Input:  Rock, Paper
-Output:  Paper
+Output:  Player 2
 
 SPEC 5:  If Paper & Scissors are played, Scissors wins
 Input:  Paper, Scissors
-Output:  Scissors 
+Output:  Player 2 
