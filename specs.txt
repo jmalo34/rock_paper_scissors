@@ -1,0 +1,19 @@
+SPEC 1:  If only 1 choice is made it is a draw
+Input: Paper, NULL
+Output:  '2 plays must be made in order for round to be played'
+
+SPEC 2:  If the 2 choices are identical, the round ends in a draw
+Input:  Paper, Paper
+Output:  'Draw. Play again.'
+
+SPEC 3:  If Rock & Scissors are played, Rock wins.
+Input:  Rock, Scissors
+Output:  Rock
+
+SPEC 4:  If Rock & Paper are played, Paper wins.
+Input:  Rock, Paper
+Output:  Paper
+
+SPEC 5:  If Paper & Scissors are played, Scissors wins
+Input:  Paper, Scissors
+Output:  Scissors 
