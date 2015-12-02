@@ -14,7 +14,7 @@
     {
         $my_Hand = new RockPaperScissors;
         $hands = $my_Hand->playGame($_GET['p1'], $_GET['p2']);
-        return $ap['twig']->render('winner.html.twig', array('hands' => $hands));
+        return $app['twig']->render('winner.html.twig', array('hands' => $hands));
     });
 
     return $app;
