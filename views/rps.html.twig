@@ -10,21 +10,22 @@
         <h3>[intro statement to game]</h3>
         <form action= '/winner' role='form'>
             <div class='form-group'>
-                <h4>Player 1</h4>
-                <label class='radio-inline'>
-                    <input id='p1' name='p1' type='radio' value='Rock'>
-                    Rock
-                </label>
-                <label class='radio-inline'>
-                    <input id='p1' name='p1' type='radio' value='Paper'>
-                    Paper
-                </label>
-                <label class='radio-inline'>
-                    <input id='p1' name='p1' type='radio' value='Scissors'>
-                    Scissors
-                </label>
-            </div>
-            <div class='form-group'>
+                <h4>Your Move</h4>
+                <label class='form-group'>
+                    <label class='radio-inline'>
+                        <input id='p1' name='p1' type='radio' value='Rock'>
+                        Rock
+                    </label>
+                    <label class='btn'>
+                        <input id='p1' name='p1' type='radio' value='Paper'>
+                        Paper
+                    </label>
+                    <label class='btn'>
+                        <input id='p1' name='p1' type='radio' value='Scissors'>
+                        Scissors
+                    </label>
+                </div>
+            <!-- <div class='form-group'>
                 <h4>Player 2</h4>
                 <label class='radio-inline'>
                     <input id='p2' name='p2' type='radio' value='Rock'>
@@ -38,7 +39,7 @@
                     <input id='p2' name='p2' type='radio' value='Scissors'>
                     Scissors
                 </label>
-            </div>
+            </div> -->
             <button type='submit' class='btn-success'>throw</button>
         </form>
     </div>
